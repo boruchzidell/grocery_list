@@ -1,0 +1,35 @@
+body {
+  background-color: #5dd1ab;
+}
+
+main {
+  background-color: white;
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #a80234;
+}
+
+h2,
+label {
+  color: #5dd1ab;
+}
+
+label,
+input {
+  display: block;
+}
+
+input[type='submit'] {
+  background-color: #a80234;
+  color: white;
+  font-weight: bold;
+}
+
+input {
+  margin-bottom: 10px;
+}
