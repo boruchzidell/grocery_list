@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
     e.preventDefault();
 
     let groceryItem = `${qty.value || 1} ${item.value}`;
-    itemsArray.push(groceryItem);g
+    itemsArray.push(groceryItem);
     localStorage.setItem('items', JSON.stringify(itemsArray));
 
     while (list.firstChild) {
