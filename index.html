@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./stylesheet.css" />
-    <script src="./groceryList.js"></script>
-    <title>Grocery List</title>
+    <script src="./todoList.js"></script>
+    <title>Todo List</title>
   </head>
   <body>
     <main>
@@ -16,15 +16,12 @@
           <label for="item">Item name</label>
           <input type="text" id="item" required />
 
-          <label for="quantity">Quantity</label>
-          <input type="number" id="quantity" />
-
           <input type="submit" value="Add" />
         </fieldset>
       </form>
 
-      <section id="groceries">
-        <h1>Groceries</h1>
+      <section id="todo">
+        <h1>Todos</h1>
         <ul id="list"></ul>
         <button>Clear list</button>
       </section>

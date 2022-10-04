@@ -2,7 +2,6 @@ document.addEventListener('DOMContentLoaded', () => {
   let getElement = (selector) => document.querySelector(selector);
 
   let item = getElement('#item');
-  let qty = getElement('#quantity');
   let list = getElement('#list');
   let button = getElement('button');
 
@@ -27,8 +26,8 @@ document.addEventListener('DOMContentLoaded', () => {
   document.querySelector('form').addEventListener('submit', function (e) {
     e.preventDefault();
 
-    let groceryItem = `${qty.value || 1} ${item.value}`;
-    itemsArray.push(groceryItem);
+    let todoItem = item.value;
+    itemsArray.push(todoItem);
     localStorage.setItem('items', JSON.stringify(itemsArray));
 
     while (list.firstChild) {
