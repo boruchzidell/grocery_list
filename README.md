@@ -1,7 +1,7 @@
-# Grocery List
+# Todo List
 
-A grocery list in a SPA (Single Page App).
+A todo list in a SPA (Single Page App).
 
-Printer-friendly output
+Uses web storage to persist data locally.
 
-[Live](https://boruchzidell.github.io/grocery_list)
+[Live](https://boruchzidell.github.io/todolist_web_storage)
